@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="author" content="Juarez Silva Junior">
+    <meta name="description" content="Site do Kombi Coffee">
+    <meta name="keywords" content="café, kombi, itinerante">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="estilos.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Kombi Coffee</title>
+
+</head>
+
+<body>
+    <h1 id="kombi_h1">Kombi Coffee</h1>
+    <div id="container">
+        <header>
+            <figure class="logotipo">
+                <img src="images/logo_kombi_coffee.png" alt="Logotipo do Kombi Coffee" title="Logotipo do Kombi Coffee">
+            </figure>
+            <nav id="menu-h">
+                <ul>
+                    <li><a href="index.html" title="Menu home">HOME</a></li>
+                    <li><a href="local.html" title="Menu local">LOCAL</a></li>
+                    <li><a href="cardapio.html" title="Menu cardápio">CARDÁPIO</a></li>
+                    <li><a href="eventos.html" title="Menu eventos">EVENTOS</a></li>
+                    <li><a href="contato.html" title="Menu contato">CONTATO</a></li>
+                </ul>
+            </nav>
+            <h1>O café que chega até você</h1>
+            <figure>
+                <img id="banner" src="images/banner.jpg"
+                    alt="Imagem de uma xícara de café, cremoso e quente, ao lado de grãos de café torrado"
+                    title="Imagem de uma xícara de café, cremoso e quente, ao lado de grãos de café torrado">
+            </figure>
+        </header>
+        <main>
+            <section id="contato">
+                <h2>Contato</h2>
+                <form>
+                    <label for="nome">Nome:</label><br>
+                    <input class="input_nome" required type="text" id="nome" name="nome"><br>
+
+                    <label for="email">E-mail:</label><br>
+                    <input class="input_email" required type="email" id="email" name="email"><br>
+
+                    <label for="comentarios">Comentários</label><br>
+                    <textarea rows="5" required class="input_comentarios" id="comentarios"
+                        name="comentarios"></textarea><br>
+
+                    <button title="Botão enviar">Enviar</button>
+
+                </form>
+            </section>
+        </main>
+        <footer>
+            <hr>
+            <p>
+                &copy; Copyright
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

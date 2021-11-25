@@ -1,0 +1,229 @@
+#menu-h ul {
+    background-color: #532C23;
+    padding: 5px;
+    margin: 0px;
+    list-style: none;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#menu-h ul li {
+    color: #532C23;
+    display: inline;
+}
+
+#menu-h ul li a {
+    padding: 2px 2px 2px 2px;
+    display: inline-block;
+    margin-inline-start: 40px;
+
+    /* visual do link */
+    color: #fdf8f7;
+    text-decoration: none;
+}
+
+h1 {
+    color: #9F9768;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.4em;
+    font-weight: 800;
+    padding-top: 0.8em;
+    padding-bottom: 0.4em;
+}
+
+h2 {
+    color: #9F9768;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2em;
+    font-weight: 800;
+    padding-top: 0.8em;
+    padding-bottom: 0.4em;
+}
+
+h3 {
+    color: #9F9768;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.0em;
+    font-weight: 800;
+    padding-top: 0.8em;
+    padding-bottom: 0.4em;
+}
+
+td {
+    padding: 3px;
+}
+.logotipo{
+    text-align: center;
+}
+.nome_tabela{
+    color: #9F9768;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.4em;
+    font-weight: 800;
+    padding-top: 0.8em;
+    padding-bottom: 0.4em;
+    text-align: center;
+
+}
+.titulo_tabela {
+    color: #9F9768;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.0em;
+    font-weight: 800;
+    padding-top: 0.8em;
+    padding-bottom: 0.4em;
+    text-align: center;
+}
+
+.celula_descricao {
+    vertical-align: top;
+    text-align: left;
+    width: 70%;
+}
+
+.celula_preco {
+    padding-top: 2.0em;
+    vertical-align: top;
+    text-align: right;
+}
+
+.celula_data {
+    vertical-align: top;
+    text-align: center;
+}
+
+.rodape_tabela{
+    font-family: Montserrat, sans-serif;
+    font-size: 1.0em;
+    font-weight: 600;
+    padding-top: 0.8em;
+    padding-bottom: 0.4em;
+    text-align: center;
+    background-color: #9F9768;
+}
+body {
+    background-color: #F7F7F7;
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+p {
+    color: #42311E;
+    padding-top: 0.8em;
+    padding-bottom: 0.4em;
+}
+
+input{
+    font-family: Montserrat, sans-serif;
+    border:1px solid #ccc;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom:15px;
+    margin-top:5px;
+}
+textarea{
+    font-family: Montserrat, sans-serif;
+    border:1px solid #ccc;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom:15px;
+    margin-top:5px;
+}
+
+.input_nome{
+    width: 400px;
+}
+.input_email{
+    width: 500px;
+}
+.input_comentarios{
+    width: 600px;
+}
+
+label{
+    color: #42311E;
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+}
+
+button{
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    color: #ccc;
+    font-weight: 600;
+    background-color: #42311E;
+    padding: 10px 20px 10px 20px;
+}
+
+hr {
+    border: 1px solid #9F9768;
+    }
+/* .col1{
+    width: 20%;
+}
+.col2{
+    width: 60%;
+}
+.col3{
+    width: 20%;
+} */
+
+figure {
+    margin: 0px;
+    padding: 0px;
+}
+#container  {  	
+	margin: 1em auto;
+    width: 940px;
+}
+#kombi_h1{
+    visibility: hidden;
+}
+#contato{
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sectionIndex{
+    display: inline-block;
+}
+article#onde{
+    display: inline-block;
+    width: 49%;
+    /* width:49%; */
+    /* display: flex;
+    flex-direction: row; */
+}
+article#escolha{
+    display: inline-block;
+    width: 49%;
+    /* display: flex;
+    flex-direction: row; */
+}
+#pescolha{
+    font-size: 0.9em;
+    display: inline-block;
+    width: 70%;
+}
+#figescolha{
+    font-size: 0.9em;
+    display: inline-block;
+    width: 29%;
+}
+#ponde{
+    font-size: 0.9em;
+    display: inline-block;
+    width: 70%;
+}
+#figonde{
+    font-size: 0.9em;
+    display: inline-block;
+    width: 29%;
+}
+#banner{
+    border-radius: 5%;
+}
+footer{
+    text-align: right;
+}
